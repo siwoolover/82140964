@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: ce-82140964-rwmany
+  storageClassName: ce-82140964-sa-rwmany
   resources:
     requests:
       storage: 1Gi

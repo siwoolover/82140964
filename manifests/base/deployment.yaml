@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "82140964" 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "82140964"
+  template:
+    metadata:
+      labels:
+        app: "82140964" 
+    spec:
+      containers:
+        - name: "82140964"
+          image: ce82140964acr.azurecr.io/82140964
+          ports:
+          - containerPort: 8080

@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://ce-82140964-db.postgres.database.azure.com:5432/flexibleserverdb
+    url: jdbc:postgresql://ce-82140964-sa-db.postgres.database.azure.com:5432/flexibleserverdb
     username: ktds
     password: Ktds!1234
     hikari:

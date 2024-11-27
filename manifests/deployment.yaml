@@ -16,7 +16,7 @@ spec:
       tolerations:
       - key: taint-test
         operator: Equal
-        value: taubt-value
+        value: taint-value
         effect: NoSchedule
       containers:
         - name: "troubleshooting-app"
